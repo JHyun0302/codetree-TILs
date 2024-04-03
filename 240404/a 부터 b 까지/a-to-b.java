@@ -10,19 +10,15 @@ public class Main {
         int a = Integer.parseInt(st.nextToken());
         int b = Integer.parseInt(st.nextToken());
 
-        sb.append(a).append(" ");
+    
         int i = a;
-        while(true){
-            
+        while(i <= b){
             if(i % 2 == 0){
+                sb.append(i).append(" ");
                 i += 3;
-                sb.append(i).append(" ");
             }else{
-                i *= 2;
                 sb.append(i).append(" ");
-            }
-            if(i >= b){
-                break;
+                i *= 2;
             }
         }
         System.out.print(sb.toString());
