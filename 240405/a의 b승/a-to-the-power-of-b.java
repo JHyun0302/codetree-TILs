@@ -9,7 +9,7 @@ public class Main {
         int a = Integer.parseInt(st.nextToken());
         int b = Integer.parseInt(st.nextToken());
 
-        int ans = 1;
+        int ans = a;
         for(int i = a; i <= b; i++){
             ans *= a;
         }
