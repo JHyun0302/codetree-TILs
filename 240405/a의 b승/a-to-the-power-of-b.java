@@ -9,8 +9,8 @@ public class Main {
         int a = Integer.parseInt(st.nextToken());
         int b = Integer.parseInt(st.nextToken());
 
-        int ans = a;
-        for(int i = a; i <= b; i++){
+        int ans = 1;
+        for(int i = 1; i <= b; i++){
             ans *= a;
         }
         System.out.print(ans);
