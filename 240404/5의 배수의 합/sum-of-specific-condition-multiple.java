@@ -8,6 +8,12 @@ public class Main {
 
         int a = Integer.parseInt(st.nextToken());
         int b = Integer.parseInt(st.nextToken());
+        int temp;
+        if(a > b){
+            temp = a;
+            a = b;
+            b = temp;
+        }
 
         int ans = 0;
         for(int i = a; i <= b; i++){
