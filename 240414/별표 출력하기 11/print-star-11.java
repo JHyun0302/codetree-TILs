@@ -6,8 +6,8 @@ public class Main {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int n = Integer.parseInt(br.readLine());
 
-        for(int i = 0; i <n * 3 - 2; i++){
-            for(int j = 0; j < n * 3 - 2; j++){
+        for(int i = 0; i <n * 2 + 1; i++){
+            for(int j = 0; j < n * 2 + 1; j++){
                 if( i % 2 == 0|| j % 2 == 0){
                     System.out.print("* ");
                 }
